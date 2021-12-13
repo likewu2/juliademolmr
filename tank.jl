@@ -1,5 +1,5 @@
 x=100
-printstyled(x, color=:red)
+print123(x, :red)
 println()
 
 x=200
