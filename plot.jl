@@ -1,6 +1,7 @@
 using UnicodePlots
 
-print("hhhhhhhhhhhhhhhhhhhh\n")
+println("hhhhhhhhhhhhhhhhhhhh")
+
 ans = barplot([1,2,3,4,5,6,7], [7,14,35,21,35,28,28])
 
 
