@@ -7,7 +7,7 @@ red green blue
 red green blue
 
 
-printstyled("■■■■■■■■■■■■■■■■\n", color=:green) 
+print123("■■■■■■■■■■■■■■■■\n", :green) 
 
 x=[5,1,8,2,12,9,3,7]
 
