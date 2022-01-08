@@ -1,6 +1,5 @@
 x=100
 print123(x, :red)
-println()
 
 x=200
 
