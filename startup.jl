@@ -5,4 +5,7 @@ function print123(msg,color::Union{Symbol,Int}=:normal)
 end
 #add=+
 
+#add /storage/MathLand/asciiart.jl
 using asciiart
+
+#cp /storage/MathLand/juliademolmr/startup.jl ~/.julia/config/
