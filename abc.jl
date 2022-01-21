@@ -1,6 +1,14 @@
 
 
-help date time exit true false if else for on off add error ERROR
+help date time exit true false
+
+ 
+ 
+ if else 
+ 
+ 
+ 
+ for on off add error ERROR
 
 
 red green blue
