@@ -1,4 +1,4 @@
-open("for2file.txt", "w") do io
+open("for2file2.txt", "w") do io
   sleep(5)
 
 
@@ -6,7 +6,8 @@ open("for2file.txt", "w") do io
   for i = 1:150000000000000000000000000000000
     sleep(0.1)
 
-    write(io, string(i," "))
+    #write(io, string(i," "))
+    write(io, string(2^i," "))
 
     flush(io)
 
