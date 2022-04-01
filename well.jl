@@ -33,20 +33,20 @@ function draw9(a9::Vector{Int64})
 		"""
 
     for i=1:9
-    	if a9[i]==2
+    	if a9[i]==9
     		msg=replace(msg,"\$"*string(i) => "  ")
     	else
     	  msg=replace(msg,"\$"*string(i) => " "*string(a9[i]))
     	end
     end
 
-    printstyled(msg,bold=false,color=:red)
+    printstyled(msg,bold=true,color=:green)
 end
 
 using Random
 
 idxs=[1:9;]
-a9=[2,2,2,2,2,2,2,2,2]
+a9=[9,9,9,9,9,9,9,9,9]
 
 for i=1:9
 	sleep(3)
@@ -59,4 +59,15 @@ for i=1:9
   	a9[idx]=0
   end
   draw9(a9)
+
+  if a9[1]+a9[2]+a9[3]==0 || a9[1]+a9[2]+a9[3]==3 ||
+  	a9[4]+a9[5]+a9[6]==0 || a9[4]+a9[5]+a9[6]==3 ||
+  	a9[7]+a9[8]+a9[9]==0 || a9[7]+a9[8]+a9[9]==3 ||
+  	a9[1]+a9[4]+a9[7]==0 || a9[1]+a9[4]+a9[7]==3 ||
+  	a9[2]+a9[5]+a9[8]==0 || a9[2]+a9[5]+a9[8]==3 ||
+  	a9[3]+a9[6]+a9[9]==0 || a9[3]+a9[6]+a9[9]==3 ||
+  	a9[1]+a9[5]+a9[9]==0 || a9[1]+a9[5]+a9[9]==3 ||
+  	a9[3]+a9[5]+a9[7]==0 || a9[3]+a9[5]+a9[7]==3
+  	break
+  end
 end
