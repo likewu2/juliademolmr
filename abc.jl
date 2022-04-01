@@ -1,6 +1,6 @@
 
 
-help date time exit true false
+help date time true false
 
  
  
@@ -8,15 +8,22 @@ help date time exit true false
  
  
  
- for on off add error ERROR
+ for add error ERROR
 
 
 red green blue
 
 
+aa = 100
+bb = 200
+
+Inf
+
+6/3
 
 
-print123("■■■■■■■■■■■■■■■■", :green)
+
+"http://pgadmin4.pvtool.com:8051/pgadmin4"
 
 x=[5,1,8,2,12,9,3,7]
 sort(x)
