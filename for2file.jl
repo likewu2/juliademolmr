@@ -5,7 +5,7 @@ open("for2file4.txt", "w") do io
 
 
 
-  for i = 0:150000000000000000000000000000000
+  for i in 0:150000000000000000000000000000000
     sleep(0.1)
 
     #write(io, string(i," "))

@@ -32,7 +32,7 @@ function draw9(a9::Vector{Int64})
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 		"""
 
-    for i=1:9
+    for i in 1:9
     	if a9[i]==9
     		msg=replace(msg,"\$"*string(i) => "  ")
     	else
@@ -48,7 +48,7 @@ using Random
 idxs=[1:9;]
 a9=[9,9,9,9,9,9,9,9,9]
 
-for i=1:9
+for i in 1:9
 	sleep(3)
 	clearscreen()
 	idx=rand(idxs)
