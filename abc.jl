@@ -1,16 +1,17 @@
 
 
 help date time true false
-
+help date time true false
  
  
  if else 
+ if else
  
  
- 
- for add error ERROR
+ for in add
+for in add
 
-
+red green blue
 red green blue
 
 
