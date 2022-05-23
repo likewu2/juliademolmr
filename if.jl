@@ -16,7 +16,7 @@ if aa==1
   print123("1111111111111111",:blue)
   #print4(:dog, :green)
   #print123(tanke)
-elseif anniu==2
+elseif aa==2
 
   print123("22222222222222222222",:red)
   #print4(:shark, :blue)
