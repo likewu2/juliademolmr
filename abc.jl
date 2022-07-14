@@ -1,17 +1,14 @@
 
 help date time true false item
 
-help date time true false item
  if else 
 
-if else
- for in add
 for in add
 
 red green blue
-red green blue
+
 Inf
-Inf
+
 
 aa = 100
 bb = 200

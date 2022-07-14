@@ -13,10 +13,10 @@ aa=2
 
 if aa==1
 
-  print123("1111111111111111",:blue)
+  print123("1111111111111111√",:blue)
   #print4(:dog, :green)
   #print123(tanke)
-elseif aa==2
+elseif anniu==2
 
   print123("22222222222222222222",:red)
   #print4(:shark, :blue)
