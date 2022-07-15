@@ -13,7 +13,8 @@ ans = plot(x,y)
 
 xlims!((-2,10))
 ylims!((-2,10))
-arrow(-2,0,12,0)
+
+#annotate!([(4,4,"(4,4)")])
 
 #display(ans)
 gui()
