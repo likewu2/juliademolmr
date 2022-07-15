@@ -1,4 +1,6 @@
 using UnicodePlots
+#using Plots; unicodeplots()
+
 
 println("hhhhhhhhhhhhhhhhhhhh")
 
