@@ -1,12 +1,24 @@
 using UnicodePlots
 
+
+
+
+
+
+
 x=[0,1,2,3,4,5,6]
 y=[0,1,2,3,4,5,6]
 
-#ans = barplot(x, y)
-
 ans = lineplot(x, y,    xlim=(-2,10), ylim=(-2,10))
 
+
+
+
+
+
+
+
+#ans = barplot(x, y)
 #ans = scatterplot(x, y)
 
 
