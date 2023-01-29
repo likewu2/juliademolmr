@@ -9,9 +9,11 @@ red green blue
 
 Inf max min
 
-left right push length
+left right kill 
 
-kill cat sort sum plot
+push length cat sort sum plot
+
+insert delete
 
 select * from lmr where xingming='李敏睿'
 
