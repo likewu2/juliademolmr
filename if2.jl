@@ -1,15 +1,17 @@
-x=4
-if x==4
+a=["乐乐", "和朵朵", "和花花", "正在打电话。"]
 
-print123("1111111111666666",:red)
+print(a[1])
 
+x=1
 
+if x==1
 
-print123("")
+  print(a[2])
 
- 
+else
 
-print123("木头fvvgfgfxffygcggv",:green)
-
+  print(a[3])
 
 end
+
+print(a[4])
