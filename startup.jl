@@ -10,6 +10,7 @@ pushfirst=pushfirst!
 popfirst=popfirst!
 insert=insert!
 delete=deleteat!
+update=splice!
 
 Base.max(a::AbstractArray)=maximum(a::AbstractArray)
 Base.min(a::AbstractArray)=minimum(a::AbstractArray)
