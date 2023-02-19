@@ -13,7 +13,7 @@ left right kill
 
 push length cat sort sum plot
 
-insert delete
+insert delete update
 
 select * from lmr where xingming='李敏睿'
 

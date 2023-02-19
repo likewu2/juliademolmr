@@ -8,7 +8,11 @@ for x in 1:21
  
   push(bb,21-x)
   
-  #println("x=",x)
+  if x==5
+    print("你不好")
+  end
+  
+  println("x=",x)
 end
 
 print123(bb) 
