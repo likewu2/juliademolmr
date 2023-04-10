@@ -19,7 +19,11 @@ Display maths:
 """
 
 # ╔═╡ be81f963-02f5-4c1b-836b-d99968ba9ab5
-println(aa)
+bb=md"""
+A paragraph containing a **bold** word.
+
+A paragraph containing some ``\LaTeX`` markup.
+"""
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """

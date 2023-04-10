@@ -36,11 +36,9 @@ Display maths:
 \int_a^b f(x) \, dx
 ```
 """
-println(aa)
 
 bb=md"""
 A paragraph containing a **bold** word.
 
 A paragraph containing some ``\LaTeX`` markup.
 """
-println(bb)
