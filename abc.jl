@@ -9,7 +9,7 @@ red green blue
 
 Inf max min
 
-left right kill 
+left right kill exit
 
 push length cat sort sum plot
 
