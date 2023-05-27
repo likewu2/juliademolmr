@@ -23,3 +23,22 @@ end
 
 tank1=Tank(100,200)
 tank2=Tank(150,150)
+
+import Pluto; Pluto.run()
+using Markdown
+
+aa=md"""
+Inline maths: ``x^2``
+
+Display maths:
+
+```math
+\int_a^b f(x) \, dx
+```
+"""
+
+bb=md"""
+A paragraph containing a **bold** word.
+
+A paragraph containing some ``\LaTeX`` markup.
+"""
