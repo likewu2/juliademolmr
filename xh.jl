@@ -28,7 +28,7 @@ print123(w)
 
 print123("第三个循环:")
 w=0
-for x in  1:10000000000
+for x in  1:1000000000
   global
   w=w+x
 end
