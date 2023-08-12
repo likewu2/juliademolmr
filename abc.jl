@@ -25,8 +25,6 @@ bb = 200
 6/100
 
 
-"http://pgadmin4.pvtool.com:8051/pgadmin4"
-
 x=[5,1,8,2,12,9,3,7]
 sort(x)
 
