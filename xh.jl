@@ -8,15 +8,11 @@ sum(b)
 
 print123("第一个循环:")
 for x in [1,3,66,86,5,5]
-
   #push(a,x)
 
   print123(x)
 end
-
 print123(a)
-
-
 
 print123("第二个循环:")
 w=0
@@ -28,7 +24,7 @@ print123(w)
 
 print123("第三个循环:")
 w=0
-for x in  1:1000000000
+for x in    1:10
   global
   w=w+x
 end
