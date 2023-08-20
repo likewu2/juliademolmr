@@ -23,9 +23,11 @@ end
 print123(w)
 
 print123("第三个循环:")
-w=0
+w=0+1
 for x in    1:10
+  print123(w)
   global
   w=w+x
 end
 print123(w)
+
