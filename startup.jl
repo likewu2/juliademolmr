@@ -1,4 +1,5 @@
 ENV["JULIA_PKG_SERVER"] = "https://mirrors.cernet.edu.cn/julia"
+#ENV["PYTHON"] = "G:/Espressif/python_env/idf5.1_py3.8_env/Scripts/python.exe"
 
 Base.display(x)=print(x)  #Base.display(x)=Base.Multimedia.redisplay(x)
 function print123(msg,color::Union{Symbol,Int}=:normal)
