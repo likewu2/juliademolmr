@@ -6,28 +6,36 @@ sum(a)
 sum(b)
 #plot(a,b)
 
-print123("第一个循环:")
+print("第一个循环:")
+println("")
 for x in [1,3,66,86,5,5]
   #push(a,x)
 
-  print123(x)
+  print(x)
+  println("")
 end
-print123(a)
+print(a)
+println("")
 
-print123("第二个循环:")
+print("第二个循环:")
+println("")
 w=0
 for x in [1,2,3,4,5]
   global
   w=w+x
 end
-print123(w)
+print(w)
+println("")
 
-print123("第三个循环:")
+print("第三个循环:")
+println("")
 w=0+1
 for x in    1:10
-  print123(w)
+  print(w)
+  println("")
   global
   w=w+x
 end
-print123(w)
+print(w)
+println("")
 

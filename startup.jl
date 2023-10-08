@@ -1,3 +1,5 @@
+ENV["JULIA_PKG_SERVER"] = "https://mirrors.cernet.edu.cn/julia"
+
 Base.display(x)=print(x)  #Base.display(x)=Base.Multimedia.redisplay(x)
 function print123(msg,color::Union{Symbol,Int}=:normal)
   printstyled(msg,bold=false,color=color)
