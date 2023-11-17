@@ -8,6 +8,10 @@ function print123(msg,color::Union{Symbol,Int}=:normal)
   println()
 end
 
+function print_rgb(r, g, b, t)
+  print("\e[1m\e[38;2;$r;$g;$b;249m",t)
+end
+
 push=push!
 pop=pop!
 pushfirst=pushfirst!

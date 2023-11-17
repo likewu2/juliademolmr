@@ -1,3 +1,6 @@
+a=11010011
+b=10101010
+
 miebashoutao=2000+1000 +1000+1000+1000+4000
 
 if miebashoutao>10000 && miebashoutao<20000
