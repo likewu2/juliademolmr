@@ -9,7 +9,7 @@ if miebashoutao>10000 && miebashoutao<20000
 
 else
 
-  #println("1级")
+  #print("1级")
   
 end
 
