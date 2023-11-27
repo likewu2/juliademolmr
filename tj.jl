@@ -19,6 +19,11 @@ dengji=0
 if jifen>=5000 && jifen<10000
   dengji=1
 end
-
+if jifen>=10000 && jifen<15000
+  dengji=2  
+end
+if jifen>=15000 && jifen<20000
+  dengji=3  
+en
 print("等级：")
 println(dengji)
