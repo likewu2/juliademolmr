@@ -14,7 +14,7 @@ else
 end
 
 
-jifen=5000
+jifen=5000+5000*2
 dengji=0
 if jifen>=5000 && jifen<10000
   dengji=1
@@ -24,6 +24,6 @@ if jifen>=10000 && jifen<15000
 end
 if jifen>=15000 && jifen<20000
   dengji=3  
-en
+end
 print("等级：")
 println(dengji)
