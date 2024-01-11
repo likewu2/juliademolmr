@@ -17,10 +17,6 @@ insert delete update
 
 select * from lmr where xingming='李敏睿'
 
-aa = 100
-bb = 200
-
-
 6/3
 6/100
 
