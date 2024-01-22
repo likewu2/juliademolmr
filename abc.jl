@@ -1,30 +1,23 @@
-
 help date time true false
 
- if else 
-
+if else 
 for in
+Inf max min
 
 red green blue
 
-Inf max min
-
-left right kill exit
-
-push length cat sort sum plot
+cat sort sum plot kill exit
+push length left right
 
 insert delete update
 
+2 * x = y
+yy=[2,4,6,8,10]
+xx=[1,2,3,4,5]
+plot(xx,yy     ;xlabel="x",ylabel="y",marker=:circle)
+
+
 select * from lmr where xingming='李敏睿'
-
-6/3
-6/100
-
-
-x=[5,1,8,2,12,9,3,7]
-sort(x)
-
-30+30+30+30==30*4
 
 
 print4(:dog, :red)
