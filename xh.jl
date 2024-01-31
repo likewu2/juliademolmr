@@ -39,3 +39,12 @@ end
 print(w)
 println("")
 
+for i in 1:9
+ for h in 1:i
+  print(h,"*",i,"=",h*i ," ")
+ end
+  
+  println("")
+end
+
+

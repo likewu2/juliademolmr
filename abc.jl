@@ -2,12 +2,14 @@ help date time true false
 
 if else 
 for in
+end
 Inf max min
 
 red green blue
 
 cat sort sum plot kill exit
 push length left right
+print error start
 
 insert delete update
 
