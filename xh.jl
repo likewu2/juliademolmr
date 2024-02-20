@@ -47,4 +47,12 @@ for i in 1:9
   println("")
 end
 
+for i in 1:9
+  if i==3
+    break
+  end
+  
+  println(i)
+end
+
 

@@ -1,7 +1,7 @@
-help date time true false
+help git date time true false
 
 if else 
-for in break continue
+for in  break continue
 end
 Inf max min
 
