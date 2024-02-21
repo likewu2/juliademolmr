@@ -55,4 +55,11 @@ for i in 1:9
   println(i)
 end
 
+for i in 1:9
+  if i==3 || i==5
+    continue
+  end
+  
+  println(i)
+end
 
