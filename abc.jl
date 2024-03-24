@@ -3,6 +3,7 @@ help git date time true false
 if else 
 for in  break continue
 end
+function return
 Inf max min
 
 red green blue
@@ -12,6 +13,10 @@ push length left right
 print error start
 
 insert delete update
+
+* / + -           算数运算符
+== > >= < <= !=   比较运算符
+&& 和  || 或      逻辑运算符
 
 2 * x = y
 yy=[2,4,6,8,10]
