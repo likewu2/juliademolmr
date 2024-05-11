@@ -4,7 +4,7 @@ if else
 for in  break continue
 end
 function return
-Inf max min
+pi π Inf max min
 
 red green blue
 
@@ -19,6 +19,7 @@ insert delete update
 && 和  || 或      逻辑运算符
 
 2 * x = y
+3 * x = y
 yy=[2,4,6,8,10]
 xx=[1,2,3,4,5]
 plot(xx,yy     ;xlabel="x",ylabel="y",marker=:circle)
