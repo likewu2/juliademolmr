@@ -14,7 +14,7 @@ print error start
 
 insert delete update
 
-* / + -           算数运算符
++ - * / ÷ %       算数运算符
 == > >= < <= !=   比较运算符
 && 和  || 或      逻辑运算符
 

@@ -56,3 +56,39 @@ end
 
 atreplinit(start_sqlrepl)
 =#
+
+using REPL
+function repl_pre()
+
+end
+function repl_post()
+
+end
+function repl_transform_prepost(ex)
+  res_sym = gensym()
+  ex1=Expr(:toplevel, :($repl_pre()), :($res_sym = $ex), :($repl_post()), :($res_sym))
+  dump(ex1)
+  println("0b", string(0b111, base=2))
+  return ex1
+end
+if isdefined(Base, :active_repl_backend)
+  if VERSION >= v"1.5.0-DEV.282"
+    pushfirst!(Base.active_repl_backend.ast_transforms, repl_transform_prepost)
+  else
+    # Unsupported
+  end
+elseif isdefined(Main, :IJulia)
+  # Unsupported
+  Main.IJulia.push_preexecute_hook(repl_pre)
+  Main.IJulia.push_postexecute_hook(repl_post)
+elseif VERSION >= v"1.5.0-DEV.282"
+  pushfirst!(REPL.repl_ast_transforms, repl_transform_prepost)
+end
+
+#=
+try
+    using Revise
+catch e
+    @warn "Error initializing Revise" exception=(e, catch_backtrace())
+end
+=#
