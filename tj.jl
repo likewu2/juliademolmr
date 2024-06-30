@@ -27,3 +27,18 @@ else
 end
 print("等级：")
 println(dengji)
+
+zs=19+2
+if zs%7==0
+  n=zs÷7
+else
+  n=zs÷7+1
+end
+println("需要车辆：",n)
+
+
+
+
+
+
+
