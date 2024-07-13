@@ -31,3 +31,12 @@ select * from lmr where xingming='李敏睿'
 print4(:dog, :red)
 print4(:cat, :red)
 print4(:bug, :red)
+
+三年级下29页(图)
+   A  B  C  D  E  F
+A  1  1  0  1  0  0
+B  1  1  0  0  1  0
+C  0  0  1  0  0  1
+D  1  0  0  1  1  0
+E  0  1  0  1  1  1
+F  0  0  1  0  1  1
