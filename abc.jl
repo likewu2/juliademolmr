@@ -31,8 +31,13 @@ select * from lmr where xingming='李敏睿'
 print4(:dog, :red)
 print4(:cat, :red)
 print4(:bug, :red)
+Π π Δ δ α ∞ 
+Δt=2
+Δs=10
+Δs÷Δt
 
-三年级下29页(图)
+三年级下册29页(图)
+
    A  B  C  D  E  F
 A  1  1  0  1  0  0
 B  1  1  0  0  1  0
