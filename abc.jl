@@ -31,10 +31,14 @@ select * from lmr where xingming='李敏睿'
 print4(:dog, :red)
 print4(:cat, :red)
 print4(:bug, :red)
-Π π Δ δ α ∞ 
+Π π Δ δ α Γ ∞ 
 Δt=2
 Δs=10
 Δs÷Δt
+
+a=[1,2,3]
+b=[3,2,1]
+a==b
 
 三年级下册29页(图)
 

@@ -63,3 +63,7 @@ for i in 1:9
   println(i)
 end
 
+xx=[1,2,3,4,5,6,7,8,9,10]
+for i in 1:length(xx)
+  xx[i]=xx[i+1]
+end
