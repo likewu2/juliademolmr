@@ -65,5 +65,14 @@ end
 
 xx=[1,2,3,4,5,6,7,8,9,10]
 for i in 1:length(xx)
+  if i==10
+    continue
+  end
   xx[i]=xx[i+1]
+end
+
+i=0
+while i<10
+  i=i+1
+  println(i)
 end
