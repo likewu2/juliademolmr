@@ -6,7 +6,7 @@ end
 function return
 pi π Inf max min
 
-red green blue
+red green blue  RGB
 
 cat sort sum plot kill exit
 push length left right
@@ -16,7 +16,7 @@ insert delete update
 
 + - * / ÷ %       算数运算符
 == > >= < <= !=   比较运算符
-&& 和  || 或      逻辑运算符
+&& and 和  || or 或      逻辑运算符
 
 2 * x = y
 3 * x = y
@@ -49,3 +49,10 @@ C  0  0  1  0  0  1
 D  1  0  0  1  1  0
 E  0  1  0  1  1  1
 F  0  0  1  0  1  1
+
+xx=[1  1  0  1  0  0;
+    1  1  0  0  1  0;
+    0  0  1  0  0  1;
+    1  0  0  1  1  0;
+    0  1  0  1  1  1;
+    0  0  1  0  1  1]
