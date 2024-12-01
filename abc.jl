@@ -20,10 +20,15 @@ insert delete update
 
 2 * x = y
 3 * x = y
-yy=[2,4,6,8,10]
-xx=[1,2,3,4,5]
-plot(xx,yy     ;xlabel="x",ylabel="y",marker=:circle)
+yy=[2,4,6,8,10,12,14,16,18,20]
+t=[1,2,3,4,5,6,7,8,9,10]
+plot(t,yy     ;xlabel="t",ylabel="y",marker=:circle)
 
+f(t) = t<=5 ? 0 : π;
+t=[1,2,3,4,5,6,7,8,9,10]
+
+t=[1,2,3,4,4.99,5.01,6,7,8,9,10]
+plot(t,f.(t)     ;xlabel="t",ylabel="f")
 
 select * from lmr where xingming='李敏睿'
 

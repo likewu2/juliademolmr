@@ -45,7 +45,7 @@ function eval(ts::AbstractRange, fs::FourierSeries)
 end
 
 # step function: zero for t < 0 and π for t > 0.
-f(t) = t < 0 ? 0.0 : π;
+f(t) = t<0 ? 0.0 : π;
 fs = FourierSeries(f)
 # Plot it!
 using Plots;
@@ -56,9 +56,8 @@ ylabel!("f(t)")
 xlabel!("t")
 
 
-f(t) = t < 0 ? t + π : π
+f(t) = t<0 ? t+π : π
 fs = FourierSeries(f)
-
 # Plot window will always be -π → π
 ts = range(-π, stop = π, length = 50);
 
