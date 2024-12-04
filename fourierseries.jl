@@ -115,3 +115,6 @@ end
     interps = range(ts[end], stop = x, length = 50)
     plot!(interps, [y for _ in interps], color = :purple)
 end every 10
+
+
+fs = FourierSeries(f, N=2)
