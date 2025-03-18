@@ -71,6 +71,23 @@ for i in 1:length(xx)
   xx[i]=xx[i+1]
 end
 
+zongshu=0
+xx=[5, 2, 3, 2, 1, 6, 5, 7, 1, 8, 3, 9, 1, 7]
+
+for i in 1:length(xx)
+  if i%5==0
+    continue
+  end
+  zongshu=zongshu+xx[i]
+end
+
+for i in 1:length(xx)
+  if xx[i]==1
+    continue
+  end
+  zongshu=zongshu+xx[i]
+end
+
 i=0
 while i<10
   i=i+1

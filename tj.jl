@@ -4,8 +4,8 @@ b=0b10101010
 
 miebashoutao=2000+1000 +1000+1000+1000+4000
 
-if miebashoutao>10000 && miebashoutao<20000
-  #print("升级到2级")
+if miebashoutao>10000
+  #print("2级")
 else
   #print("1级")
 end
@@ -35,10 +35,3 @@ else
   n=zs÷7+1
 end
 println("需要车辆：",n)
-
-
-
-
-
-
-

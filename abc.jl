@@ -12,6 +12,9 @@ cat sort sum plot kill exit
 push length left right
 print error start
 
+write("F:/Game/wenjian.txt", "limingru李李李")
+aa=read("F:/Game/wenjian.txt")
+
 insert delete update
 
 + - * / ÷ %       算数运算符
@@ -24,11 +27,16 @@ yy=[2,4,6,8,10,12,14,16,18,20]
 t=[1,2,3,4,5,6,7,8,9,10]
 plot(t,yy     ;xlabel="t",ylabel="y",marker=:circle)
 
-f(t) = t<=5 ? 0 : π;
+f(t) = if t<=5
+  0
+else
+  π
+end
+f(t) = t<=5 ? 0 : π
 t=[1,2,3,4,5,6,7,8,9,10]
 
 t=[1,2,3,4,4.99,5.01,6,7,8,9,10]
-plot(t,f.(t)     ;xlabel="t",ylabel="f")
+plot(t,f.(t)     ;xlabel="t - 时间",ylabel="v - 速度")
 
 select * from lmr where xingming='李敏睿'
 
