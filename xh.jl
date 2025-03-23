@@ -75,6 +75,10 @@ zongshu=0
 xx=[5, 2, 3, 2, 1, 6, 5, 7, 1, 8, 3, 9, 1, 7]
 
 for i in 1:length(xx)
+  zongshu=zongshu+xx[i]
+end
+
+for i in 1:length(xx)
   if i%5==0
     continue
   end
