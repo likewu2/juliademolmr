@@ -5,9 +5,9 @@ b=0b10101010
 miebashoutao=2000+1000 +1000+1000+1000+4000
 
 if miebashoutao>10000
-  #print("2级")
+  print("22222222222222222级")
 else
-  #print("1级")
+  print("111111111111111111级")
 end
 
 
@@ -18,7 +18,7 @@ if jifen>=5000 && jifen<10000
   dengji=1
 end
 if jifen>=10000 && jifen<15000
-  dengji=2  
+  dengji=2
 end
 if jifen>=15000 && jifen<20000
   dengji=3

@@ -72,9 +72,14 @@ for i in 1:length(xx)
 end
 
 zongshu=0
-xx=[5, 2, 3, 2, 1, 6, 5, 7, 1, 8, 3, 9, 1, 7]
+xx=[5, 2, 3, 2, 1, 6, 5, 7, 8, 1, 3, 9, 1, 7]
 
 for i in 1:length(xx)
+  if i==5 || i==10
+    continue
+    #break
+  end
+  
   zongshu=zongshu+xx[i]
 end
 
