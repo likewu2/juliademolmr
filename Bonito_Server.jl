@@ -19,7 +19,7 @@ app = App() do
   #pngfile = Bonito.Asset(joinpath(@__DIR__, "index.png"))
   #println(pngfile)
   #return DOM.div(DOM.img(src=pngfile, style="height: 500px;"))
-  #PCard(p) = Card(p, padding="0px", margin="0px")
+  PCard(p) = Card(p, padding="0px", margin="0px")
   return Grid(
     #PCard(gp),
     PCard(p),
