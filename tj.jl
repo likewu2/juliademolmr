@@ -4,7 +4,7 @@ b=0b10101010
 
 miebashoutao=2000+1000 +1000+1000+1000+4000
 
-if miebashoutao>10000
+if miebashoutao>5000
   print("22222222222222222级")
 else
   print("111111111111111111级")
