@@ -1,18 +1,42 @@
 aa=[1]
 pop!(aa)
 
-# 1 4 7 10 13 16 19 22
+# 1 4 7 10 13 16 19 22 25
 
-function add3(n)
-  if n<=0
-    return 0
-  end
+function jia3(n)
   if n==1
-    return 1
+    1
+  else
+    jia3(n-1) + 3
   end
-  return add3(n-1) + 3
 end
 
+function add3(n)
+  if n==1
+    1
+  else
+    add3(n-1) + 3
+  end
+end
+
+# 0 3 4 3 0 3 4 3 0
+
+function zhouqi4(n)
+  if n%4==1
+    0
+  elseif n%4==2
+    3
+  elseif n%4==3
+    4
+  elseif n%4==4
+    3
+  end
+end
+
+zz=[1, 4, 7, 10, 13, 16, 19, 22, 25]
+yy=[0, 3, 4, 3,  0,  3,  4,  3,  0]
+xx=[1, 2, 3, 4,  5,  6,  7,  8,  9]
+plot(xx, [yy,zz])
 
 # 1 1 2 3 5 8 13 21 34 55 89
 
