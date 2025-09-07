@@ -101,5 +101,5 @@ end
 i=0
 while i<10
   i=i+1
-  println(i)
+  println("✅",i)
 end
