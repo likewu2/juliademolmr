@@ -2,9 +2,22 @@ aa=[1]
 pop!(aa)
 
 zz=[1, 4, 7, 10, 13, 16, 19, 22, 25]
-yy=[0, 3, 4, 3,  0,  3,  4,  3,  0]
+yy=[0, 3, 4, 3,  0,  3, 4,  3,  0]
 xx=[1, 2, 3, 4,  5,  6,  7,  8,  9]
 plot(xx, [yy,zz])
+
+# 0 3 4 3 0 3 4 3 0
+function zhouqi4(n)
+  if n%4==1
+    0
+  elseif n%4==2
+    3
+  elseif n%4==3
+    4
+  elseif n%4==0
+    3
+  end
+end
 
 # 1 4 7 10 13 16 19 22 25
 function add3(n)
@@ -23,19 +36,6 @@ function jia3(n)
   end
 end
 
-# 0 3 4 3 0 3 4 3 0
-function zhouqi4(n)
-  if n%4==1
-    0
-  elseif n%4==2
-    3
-  elseif n%4==3
-    4
-  elseif n%4==4
-    3
-  end
-end
-
 # 1 1 2 3 5 8 13 21 34 55 89
 function Fibonacci(n)
   if n<=0
@@ -43,8 +43,9 @@ function Fibonacci(n)
   end
   if n==1 || n==2
     return 1
+  else
+    return Fibonacci(n-2) + Fibonacci(n-1)
   end
-  return Fibonacci(n-2) + Fibonacci(n-1)
 end
 
 

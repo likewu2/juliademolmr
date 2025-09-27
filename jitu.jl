@@ -5,8 +5,14 @@ youdaan=false
 
 aa=0.01
 bb="aaaaabbbbbbbb"
-cc=true
-dd=false
+cc=false
+dd=true
+cc=0
+dd=1
+cc="F"
+dd="T"
+cc="阴"
+dd="阳"
 
 for ji in 0:head
   
