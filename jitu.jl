@@ -14,6 +14,22 @@ dd="T"
 cc="阴"
 dd="阳"
 
+struct Jiangjun
+  xm
+  wl
+  xl
+end
+lvbu = Jiangjun("吕布",100,1000)
+zhangfei = Jiangjun("张飞",200,500)
+
+mutable struct Jiedian
+ l
+ r
+end
+aa=Jiedian(nothing,nothing)
+aa.l=Jiedian(nothing,nothing)
+aa.r=Jiedian(nothing,nothing)
+
 for ji in 0:head
   
   tuzi=head-ji

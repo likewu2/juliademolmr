@@ -36,15 +36,27 @@ function jia3(n)
   end
 end
 
+#爬楼梯几种爬法：
+#   1 2 3 5 8 13 21 34 55 89
+function palouti(n)
+  if n==1
+    1
+  elseif n==2
+    2
+  else
+    palouti(n-1) + palouti(n-2)
+  end
+end
+
 # 1 1 2 3 5 8 13 21 34 55 89
 function Fibonacci(n)
   if n<=0
     return 0
   end
   if n==1 || n==2
-    return 1
+    1
   else
-    return Fibonacci(n-2) + Fibonacci(n-1)
+    Fibonacci(n-2) + Fibonacci(n-1)
   end
 end
 
