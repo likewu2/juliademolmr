@@ -1,20 +1,4 @@
-# 笼子里有50个头和160只脚
-head=5
-leg=16
-youdaan=false
-
-aa=0.01
-bb="aaaaabbbbbbbb"
-cc=false
-dd=true
-cc=0
-dd=1
-cc="F"
-dd="T"
-cc="阴"
-dd="阳"
-
-struct Wushi
+mutable struct Wushi
   xm
   wl
   xl
@@ -30,6 +14,22 @@ aa=Jiedian(nothing, nothing)
 aa.l=Jiedian(nothing, nothing)
 aa.r=Jiedian(nothing, nothing)
 
+
+# 笼子里有50个头和160只脚
+head=5
+leg=16
+youdaan=false
+
+aa=0.01
+bb="aaaaabbbbbbbb"
+cc=false
+dd=true
+cc=0
+dd=1
+cc="F"
+dd="T"
+cc="阴"
+dd="阳"
 
 for ji in 0:head
   

@@ -44,7 +44,7 @@ select * from lmr where xingming='李敏睿'
 print4(:dog, :red)
 print4(:cat, :red)
 print4(:bug, :red)
-Π π Δ δ α Γ ∞ 
+Π π  Δ δ  Σ σ  α Γ  ∞ 
 Δt=2
 Δs=10
 Δs÷Δt

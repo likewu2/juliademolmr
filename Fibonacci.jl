@@ -9,22 +9,22 @@ plot(xx, [yy,zz])
 # 0 3 4 3 0 3 4 3 0
 function zhouqi4(n)
   if n%4==1
-    0
+    return 0
   elseif n%4==2
-    3
+    return 3
   elseif n%4==3
-    4
+    return 4
   elseif n%4==0
-    3
+    return 3
   end
 end
 
 # 1 4 7 10 13 16 19 22 25
 function add3(n)
   if n==1
-    1
+    return 1
   else
-    add3(n-1)+3
+    return add3(n-1)+3
   end
 end
 
